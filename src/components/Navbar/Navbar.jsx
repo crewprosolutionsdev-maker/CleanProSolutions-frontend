@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import './Navbar.css';
 
 function Navbar() {
@@ -6,9 +8,9 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
                 <div className="container">
 
-                    <a className="navbar-brand fw-bold" href="/">
+                    <Link className="navbar-brand fw-bold" to="/">
                         CleanPro Solutions
-                    </a>
+                    </Link>
 
                     <button
                         className="navbar-toggler"
@@ -26,27 +28,27 @@ function Navbar() {
                         <ul className="navbar-nav gap-3">
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/">
+                                <Link className="nav-link" to="/">
                                     Home
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/services">
+                                <Link className="nav-link" to="/services">
                                     Servicios
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/about">
+                                <Link className="nav-link" to="/about">
                                     Nosotros
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">
+                                <Link className="nav-link" to="/contact">
                                     Contacto
-                                </a>
+                                </Link>
                             </li>
 
                         </ul>
