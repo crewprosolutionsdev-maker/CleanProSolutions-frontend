@@ -1,0 +1,52 @@
+.why-section {
+    padding: 120px 0;
+
+    background-color: white;
+}
+
+.why-header {
+    margin-bottom: 60px;
+}
+
+.why-header h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+    color: var(--dark-color);
+
+    margin-bottom: 1rem;
+}
+
+.why-header p {
+    color: #666;
+}
+
+.why-card {
+    padding: 35px 25px;
+
+    background-color: var(--light-color);
+
+    border-radius: var(--border-radius);
+
+    height: 100%;
+
+    transition: var(--transition);
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+}
+
+.why-card h3 {
+    font-size: 1.3rem;
+
+    margin-bottom: 1rem;
+
+    color: var(--dark-color);
+}
+
+.why-card p {
+    color: #666;
+
+    line-height: 1.7;
+}

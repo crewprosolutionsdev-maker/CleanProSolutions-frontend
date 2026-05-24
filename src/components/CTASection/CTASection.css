@@ -1,0 +1,47 @@
+.cta-section {
+    padding: 120px 0;
+
+    background-color: var(--dark-color);
+
+    color: white;
+
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+
+    margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+
+    color: rgba(255,255,255,0.8);
+
+    margin-bottom: 2.5rem;
+}
+
+.cta-btn {
+    padding: 16px 36px;
+
+    border: none;
+
+    border-radius: var(--border-radius);
+
+    background-color: var(--primary-color);
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: var(--transition);
+}
+
+.cta-btn:hover {
+    transform: scale(1.05);
+}
