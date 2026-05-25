@@ -31,27 +31,27 @@ function Footer() {
                         <ul className="footer-links">
 
                             <li>
-                                <a href="/">
+                                <Link to="/">
                                     Home
-                                </a>
+                                </Link>
                             </li>
 
                             <li>
-                                <a href="/services">
+                                <Link to="/services">
                                     Servicios
-                                </a>
+                                </Link>
                             </li>
 
                             <li>
-                                <a href="/about">
+                                <Link to="/about">
                                     Nosotros
-                                </a>
+                                </Link>
                             </li>
 
                             <li>
-                                <a href="/contact">
+                                <Link to="/contact">
                                     Contacto
-                                </a>
+                                </Link>
                             </li>
 
                         </ul>
