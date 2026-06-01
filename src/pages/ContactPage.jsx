@@ -42,7 +42,8 @@ function ContactPage() {
         e.preventDefault();
 
         try {
-            const API_URL = import.meta.env.VITE_API_URL
+            const API_URL = import.meta.env.VITE_API_URL || 'https://cleanprosolutions-backend-production.up.railway.app';
+            
             const response = await fetch(`${API_URL}/api/contact`, {
                 method: 'POST',
                 headers: {
@@ -175,3 +176,4 @@ function ContactPage() {
 }
 
 export default ContactPage;
+
